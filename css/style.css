@@ -1141,7 +1141,7 @@ nav.nav-inner {
     float: left;
 	max-width:550px;
     color: rgba(255, 255, 255, 0.71);
-    font-weight: 500;
+    font-weight: 600;
 }
 .rotate_text {
     color: #999;
@@ -4461,7 +4461,7 @@ section , section.no-padding-bottom {
 	line-height:45px;
 }
 .half-hero-wrap h4 {
-    font-size: 12px;
+    font-size: 16px;
 	max-width:350px
 }
 .fw-carousel-control_container , .inline-filter_title , .to-top-btn  {
