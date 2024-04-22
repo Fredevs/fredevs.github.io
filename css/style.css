@@ -251,7 +251,7 @@ blockquote p {
 	height: auto;
 }
 .hidden-item {
-	overflow:hidden;
+	overflow:hidden ;
 }
 .bg {
 	position: absolute;
