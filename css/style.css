@@ -3071,7 +3071,7 @@ font-family: 'Roboto', sans-serif;
 	letter-spacing:2px;
 	padding-top:10px;
 	font-weight:bold;
-	margin-bottom:15px;
+	margin-bottom:0px;
 	background: #262627;
 	color: rgba(255, 255, 255, 0.41);
 }
@@ -3081,15 +3081,7 @@ font-family: 'Roboto', sans-serif;
 	top:0;
 	font-size:16px;
 }
-.footer-header:before {
-	content:"";
-	position:absolute;
-	bottom:4px;
-	left:100px;
-	right:0;
-	height:1px;
-	background:rgba(255, 255, 255, 0.21);
-}
+
 .subcribe-form {
 	margin-top: 42px;
 }
