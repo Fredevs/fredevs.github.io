@@ -247,11 +247,10 @@ blockquote p {
 	height:100%;
 }
 .respimg {
-	width: 60%;
 	height: auto;
 }
 .hidden-item {
-	overflow:hidden ;
+	overflow:hidden;
 }
 .bg {
 	position: absolute;
