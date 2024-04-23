@@ -1,0 +1,27 @@
+.service_img_desktop {
+  width: 280px;
+}
+
+.service_img_phone {
+  width: 230px;
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 850px) {
+  .service_img_desktop {
+    display: none;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .service_exp_phone {
+    float: unset;
+  }
+}
+
+@media only screen and (min-width: 851px) {
+  .service_img_phone {
+    display: none;
+  }
+}
