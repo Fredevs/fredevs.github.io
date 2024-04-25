@@ -13,6 +13,7 @@
         <link type="text/css" rel="stylesheet" href="css/plugins.css">
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link type="text/css" rel="stylesheet" href="css/color.css">
+        <link type="text/css" rel="stylesheet" href="css/extras.css">
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="images/icon.png">
     </head>
@@ -26,7 +27,7 @@
         <div id="main">
             <!-- header start  -->
             <header class="main-header">
-                <a href="index.html" class="header-logo ajax"><img src="images/logo.png" style="height:60px;width:60px;margin-top:-15px" alt=""></a>
+                <a href="index.html" class="header-logo ajax"><img src="images/icon.png" style="height:60px;width:60px;margin-top:-15px" alt=""></a>
                 <!-- sidebar-button --> 
                 <!-- nav-button-wrap-->
                 <div class="nav-button-wrap">
@@ -114,18 +115,12 @@
                         <div class="fixed-column-wrap">
                             <div class="pr-bg"></div>
                             <div class="fixed-column-wrap-content map-mobile">
-                                <div class="scroll-nav-wrap color-bg">
-                                    <div class="snw-dec">
-                                        <div class="mousey">
-                                            <div class="scroller"></div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <div class="progress-bar-wrap bot-element">
                                     <div class="progress-bar"></div>
                                 </div>
                                 <div class="map-container mc_big">
-                                    <div id="map-single" class="map" data-latlog="[40.714 , -74.005]" data-popuptext="We work in New York . <br> We are waiting for your visit"></div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.2745648636!2d-58.515699134319604!3d-34.61579604866091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires!5e0!3m2!1sen!2sar!4v1713982981075!5m2!1sen!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                             <!--fixed-column-wrap-content end-->
@@ -142,17 +137,16 @@
                                     <div class="pr-bg pr-bg-white"></div>
                                 </div>
                                 <!--section--> 
+                                <!--
                                 <section id="sec1" class="small-padding">
                                     <div class="container">
                                         <div class="split-sceen-content_title fl-wrap">
                                             <div class="pr-bg pr-bg-white"></div>
                                             <h3> Contact Details</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.  </p>
                                         </div>
                                         <div class="column-wrap-content fl-wrap">
                                             <div class="column-wrap-media fl-wrap">
                                                 <div class="pr-bg pr-bg-white"></div>
-                                                <img src="images/all/1.jpg"  class="respimg" alt="">
                                                 <div class="cont-det-wrap dark-bg">
                                                     <div class="pr-bg pr-bg-white"></div>
                                                     <ul>
@@ -165,7 +159,7 @@
                                         </div>
                                         <div class="section-number right_sn"><span>0</span>1.</div>
                                     </div>
-                                </section>
+                                </section>-->
                                 <!--section end--> 
                                 <div class="section-separator"></div>
                                 <!--section--> 
@@ -173,8 +167,8 @@
                                     <div class="container">
                                         <div class="split-sceen-content_title fl-wrap">
                                             <div class="pr-bg pr-bg-white"></div>
-                                            <h3>Get In touch</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar.  </p>
+                                            <h3>Formulario de Contacto</h3>
+                                            <p>Nos encontramos a su disposición para ofrecerle soluciones personalizadas en desarrollo de software e infraestructura.<br>¡Contáctanos para comenzar!  </p>
                                         </div>
                                         <div id="contact-form">
                                             <div class="pr-bg pr-bg-white"></div>
@@ -183,25 +177,25 @@
                                                 <fieldset>
                                                     <div class="row">
                                                         <div class="col-md-6">
-                                                            <input type="text" name="name" id="name" placeholder="Your Name *" value=""/>
+                                                            <input class="contact_input" type="text" name="name" id="name" placeholder="Nombre" value=""/>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <input type="text"  name="email" id="email" placeholder="Email Address *" value=""/>
+                                                            <input class="contact_input" type="text"  name="email" id="email" placeholder="Correo" value=""/>
                                                         </div>
                                                         <div class="col-md-6">
-                                                            <input type="text"  name="phone" id="phone" placeholder="Phone *" value=""/>
+                                                            <input class="contact_input" type="text"  name="phone" id="phone" placeholder="Celular" value=""/>
                                                         </div>
-                                                        <div class="col-md-6">
+                                                       <!-- <div class="col-md-6">
                                                             <select name="subject" id="subject" data-placeholder="Subject" class="chosen-select sel-dec">
                                                                 <option>Subject</option>
                                                                 <option value="Order Project">Order Project</option>
                                                                 <option value="Support">Support</option>
                                                                 <option value="Other Question">Other Question</option>
                                                             </select>
-                                                        </div>
+                                                        </div>-->
                                                     </div>
-                                                    <textarea name="comments"  id="comments" cols="40" rows="3" placeholder="Your Message:"></textarea>
-                                                    <div class="verify-wrap">
+                                                    <textarea style="padding: 15px 20px;" class="contact_input" name="comments"  id="comments" cols="40" rows="3" placeholder="Mensaje"></textarea>
+                                                    <!--<div class="verify-wrap">
                                                         <span class="verify-text"> How many gnomes were in the story about the "Snow-white" ?</span> 
                                                         <select name="verify" id="verify" data-placeholder="0" class="chosen-select">
                                                             <option>0</option>
@@ -210,16 +204,16 @@
                                                             <option value="7">7</option>
                                                             <option value="2">2</option>
                                                         </select>
-                                                    </div>
+                                                    </div>-->
                                                     <div class="clearfix"></div>
-                                                    <button class="btn float-btn flat-btn color-bg" id="submit">Send Message <i class="fal fa-long-arrow-right"></i></button>
+                                                    <button class="btn float-btn flat-btn color-bg" id="submit">Enviar Mensaje <i class="fal fa-long-arrow-right"></i></button>
                                                 </fieldset>
                                             </form>
                                         </div>
                                         <!-- contact form  end--> 
                                         <div class="section-number right_sn">
                                             <div class="pr-bg pr-bg-white"></div>
-                                            <span>0</span>2.
+                                            <span>0</span>1.
                                         </div>
                                     </div>
                                 </section>

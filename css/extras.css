@@ -7,6 +7,17 @@
   margin-top: 40px;
 }
 
+.contact_input {
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid rgb(218, 218, 218) !important;
+}
+
+.contact_input::placeholder {
+  color: #b5b5b5 !important;
+  font-weight: 500 !important;
+}
+
 @media only screen and (max-width: 850px) {
   .service_img_desktop {
     display: none;
