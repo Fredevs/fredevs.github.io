@@ -1794,6 +1794,7 @@ section.hero-section .fs-canvas {
 .split-sceen-content_title {
 	margin-bottom:20px;
 	padding-top:20px;
+	z-index: 1000;
 }
 .split-sceen-content_title:before {
     content: '';
