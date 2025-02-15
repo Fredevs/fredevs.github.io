@@ -34,6 +34,7 @@
                     fetch('https://api-contactos.dev.adini.com.ar/comments/', {
                         method: 'POST',
                         body: formData,
+                        mode: 'no-cors'
                     })
                         .then(resp => resp.text()) // or, resp.json(), etc.
                         .then(data => {
