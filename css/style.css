@@ -4579,6 +4579,11 @@ nav.nav-inner {
 .nav-holder {
     width: 300px;
 }
+
+.error-wrap h2 {
+	font-size: 56px
+}
+
 .nav-scroll-bar-wrap {
     padding: 50px 10px 100px 30px;
 }
@@ -4600,3 +4605,4 @@ header.main-header {
 		background-position: center;
 	}
 }
+
