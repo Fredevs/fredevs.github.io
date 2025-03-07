@@ -4580,8 +4580,9 @@ nav.nav-inner {
     width: 300px;
 }
 
-.error-wrap h2 {
-	font-size: 56px
+.error-wrap.fl-wrap h2 {
+	font-size: 56px;
+	line-height: 70px;
 }
 
 .nav-scroll-bar-wrap {
