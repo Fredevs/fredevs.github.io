@@ -5,7 +5,8 @@
         "tecnologías": "Tecnologías",
         "proyectos": "Proyectos",
         "nosotros": "Nosotros",
-        "menu": "Menú"
+        "menu": "Menú",
+        "contacto": "Contacto"
     },
     "banner": {
         "span": "Desarrollo a medida",
@@ -34,7 +35,7 @@
                 ]
             },
             {
-                "titulo": "Business Intelligence",
+                "titulo": "Análisis de datos",
                 "imagen": "/assets/icons/bi.svg",
                 "lista": [
                     "Monitoreo y Soporte",

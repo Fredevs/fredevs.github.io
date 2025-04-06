@@ -2,10 +2,51 @@ import { Box, Button, Flex, Text, Divider, IconButton, Drawer, DrawerBody, Drawe
 import { FaBars } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
+import {useEffect,useState} from 'react';
 
 export default function Header() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const { t } = useTranslation();
+  const [backgroundColor, setBackgroundColor] = useState('linear-gradient(to right, rgba(7, 30, 55, 0.9), rgba(7, 30, 55, 0.5))');
+  const [headerTopBorder, setHeaderTopBorder] = useState('');
+  const [headerBoxShadow, setHeaderBoxShadow] = useState('');
+  const [logoColor, setLogoColor] = useState('white');
+  const [itemsColor, setItemsColor] = useState('white');
+  const [adiniIcon, setAdiniIcon] = useState('/assets/icons/adini-white.ico')
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Obtén la posición actual del scroll vertical
+      const scrollY = window.scrollY;
+
+      // Define los puntos de activación para cada sección (ajusta los valores)
+      const section2Offset = 860;
+
+      if (scrollY >= section2Offset) {
+        setBackgroundColor('white');
+        setHeaderTopBorder('1.75px solid #071e37');
+        setHeaderBoxShadow('md');
+        setLogoColor('#4d45d6');
+        setItemsColor('');
+        setAdiniIcon('/assets/icons/adini.ico');
+      } else {
+        setBackgroundColor('linear-gradient(to right, rgba(7, 30, 55, 0.9), rgba(7, 30, 55, 0.5))');
+        setHeaderTopBorder('');
+        setHeaderBoxShadow('')
+        setLogoColor('white');
+        setItemsColor('white');
+        setAdiniIcon("/assets/icons/adini-white.ico");
+      }
+    };
+
+    // Agrega el listener al evento scroll cuando el componente se monta
+    window.addEventListener('scroll', handleScroll);
+
+    // Limpia el listener cuando el componente se desmonta para evitar memory leaks
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
@@ -20,8 +61,8 @@ export default function Header() {
     }
   };
   return (
-    <Box position="sticky" w="100%" height="auto" zIndex={10} top={0} bg="white">
-      <Flex justifyContent="space-between" alignItems="center" py={{ base: 3, lg: 4 }} px={{ base: "30px", lg: "70px" }} boxShadow="md" borderTop="1.75px solid #071e37">
+    <Box position="sticky" w="100%" height="auto" zIndex={10} top={0} bg={backgroundColor}>
+      <Flex bg={backgroundColor} justifyContent="space-between" alignItems="center" py={{ base: 3, lg: 4 }} px={{ base: "30px", lg: "70px" }} boxShadow={headerBoxShadow} borderTop={headerTopBorder}>
         <Flex align={"center"} onClick={() => scrollToSection("inicio")} cursor={"pointer"}>
           <Box
             width="33px"
@@ -30,35 +71,26 @@ export default function Header() {
             mb={"4px"}
           >
             <img
-              src="/assets/icons/adini.ico"
+              src={adiniIcon}
               alt="Adini"
             />
           </Box>
-          <Text my={0} fontSize="28px" color="#4d45d6" fontFamily="Poppins, sans-serif">
+          <Text my={0} fontSize="28px" color={logoColor} fontFamily="Poppins, sans-serif">
             Adini
           </Text>
         </Flex>
 
         <Flex display={{ base: "none", lg: "flex" }} gap={12} fontSize="md">
-          {['inicio', 'servicios', 'tecnologías', 'proyectos', 'nosotros'].map((section) => (
-            <Text key={section} as="button" onClick={() => scrollToSection(section)} p="8px" _hover={{ color: "tertiary.500", cursor: "pointer" }}>
+          {['inicio', 'servicios', 'tecnologías', 'proyectos', 'contacto' ,'nosotros'].map((section) => (
+            <Text color={itemsColor} key={section} as="button" onClick={() => scrollToSection(section)} p="8px" _hover={{ color: "tertiary.500", cursor: "pointer" }}>
               {t(`header.${section}`)}
             </Text>
           ))}
         </Flex>
 
-        <Button
-          display={{ base: "none", lg: "flex" }}
-          leftIcon={<HiMail />}
-          variant="solid"
-          bg="tertiary.500"
-          color="secondary.500"
-          fontSize="md"
-          _hover={{ transform: "scale(1.05)", bg: "#5548e6" }}
-          onClick={() => scrollToSection("contacto")}
-        >
-          <Text my={0} fontSize={{ base: "sm", xl: "md" }}>contacto@adini.com.ar</Text>
-        </Button>
+        <Flex >
+        </Flex>
+
 
         <IconButton
           display={{ base: "flex", lg: "none" }}
@@ -67,6 +99,7 @@ export default function Header() {
           aria-label="Open Menu"
           onClick={onOpen}
           fontSize="22px"
+          color={logoColor}
         />
 
         <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
