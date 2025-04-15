@@ -50,7 +50,7 @@ export default function BannerSection() {
     return (
         <Box position="relative" overflow="hidden" boxShadow={"md"}>
             <Box
-                height={860}
+                height={{ base: `${window.innerHeight - 66}px`, lg: `${window.innerHeight - 74}px` }}
                 display="flex"
                 flexDirection="column"
                 justifyContent="center"
