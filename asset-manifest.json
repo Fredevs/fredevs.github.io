@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5d84a3f9.css",
-    "main.js": "/static/js/main.9a80ba4a.js",
+    "main.js": "/static/js/main.d6ee435d.js",
+    "static/media/moviltrack.webm": "/static/media/moviltrack.efa3b202082d35251a04.webm",
     "static/media/sia.webm": "/static/media/sia.6038ec1cd6114b06db01.webm",
     "static/media/samay.webm": "/static/media/samay.40df502da18565167639.webm",
     "static/media/amigoscole2.webm": "/static/media/amigoscole2.ec55b3b555217c20e556.webm",
@@ -12,16 +13,16 @@
     "static/media/amigoscole1.webm": "/static/media/amigoscole1.03f7a26766abe4cf23b1.webm",
     "static/media/ripadmin.webm": "/static/media/ripadmin.088f9aaf461b6ae58b95.webm",
     "static/media/credencial1.webm": "/static/media/credencial1.d9e50d612207f75579f3.webm",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.5d84a3f9.css.map": "/static/css/main.5d84a3f9.css.map",
-    "main.9a80ba4a.js.map": "/static/js/main.9a80ba4a.js.map"
+    "main.d6ee435d.js.map": "/static/js/main.d6ee435d.js.map"
   },
   "entrypoints": [
     "static/css/main.5d84a3f9.css",
-    "static/js/main.9a80ba4a.js"
+    "static/js/main.d6ee435d.js"
   ]
 }
