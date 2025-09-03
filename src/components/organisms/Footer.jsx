@@ -82,7 +82,7 @@ export default function Footer() {
                 </GridItem>
             </Grid>
 
-            <Divider opacity={.2} my={8} />
+            <Divider opacity={.6} my={8} />
 
             <Box pb={8}>
                 <Text textAlign={"center"} m={0} fontSize="sm">

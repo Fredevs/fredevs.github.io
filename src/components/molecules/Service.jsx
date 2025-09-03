@@ -24,10 +24,10 @@ export default function Service({ title, image, serviceList }) {
           style={{ marginTop: "-130px", width: "90%", borderRadius: "8px" }}
         />
       </Flex>
-      <Heading textAlign={"left"} mt={8} mb={6} size="md">
+      <Heading textAlign={"left"} mt={8} mb={6} color="gray.700" size="md">
         {title}
       </Heading>
-      <List p={0} spacing={2} textAlign="left">
+      <List p={0} spacing={2} textAlign="left" color="gray.700">
         {serviceList.map((item, idx) => (
           <ListItem key={idx}>
             <ListIcon mb={1} as={CheckCircleIcon} color="tertiary.500" />

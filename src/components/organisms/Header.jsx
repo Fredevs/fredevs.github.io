@@ -24,7 +24,7 @@ export default function Header() {
         setBackgroundColor('white');
         setHeaderBoxShadow('md');
         setLogoColor('#4d45d6');
-        setItemsColor('');
+        setItemsColor('gray.700');
         setAdiniIcon('/assets/icons/adini.ico');
         setContactButtonStyle(true);
       } else {

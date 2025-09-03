@@ -338,7 +338,7 @@
         "descripcion": "Envíanos tu mensaje",
         "nombreInput": "Tu nombre",
         "correoInput": "Tu correo electrónico",
-        "telefonoInput": "Tu número de teléfono",
+        "telefonoInput": "Tu número de teléfono (opcional)",
         "mensajeInput": "Escribe tu mensaje",
         "mail": {
             "encabezado": "Contacto desde la web",

@@ -90,10 +90,10 @@ export default function AboutUs() {
                                         </Box>
                                     </Link>
                                 </Box>
-                                <Text m={0} fontWeight="bold" fontSize={{ base: "sm", md: "xl" }}>
+                                <Text m={0} color={'gray.700'} fontWeight="bold" fontSize={{ base: "sm", md: "xl" }}>
                                     {member.name}
                                 </Text>
-                                <Box my={2} h="1px" bg="tertiary.500"></Box>
+                                <Box my={2} color={'gray.700'} h="1px" bg="tertiary.500"></Box>
                                 <Text color="gray.500" fontSize={{ base: "xs", md: "md" }}>
                                     {member.role}
                                 </Text>

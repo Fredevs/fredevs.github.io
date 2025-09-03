@@ -87,6 +87,7 @@ export default function Contact() {
                     color="#071e37"
                     border="2px solid #e0e0e0"
                     _focus={{ borderColor: "#6c63ff" }}
+                    _placeholder={{ color: "#999999" }} 
                     borderRadius="md"
                     p={4}
                   />
@@ -99,6 +100,7 @@ export default function Contact() {
                     color="#071e37"
                     border="2px solid #e0e0e0"
                     _focus={{ borderColor: "#6c63ff" }}
+                    _placeholder={{ color: "#999999" }} 
                     borderRadius="md"
                     p={4}
                   />
@@ -111,6 +113,7 @@ export default function Contact() {
                     color="#071e37"
                     border="2px solid #e0e0e0"
                     _focus={{ borderColor: "#6c63ff" }}
+                    _placeholder={{ color: "#999999" }} 
                     borderRadius="md"
                     p={4}
                   />
@@ -126,6 +129,7 @@ export default function Contact() {
                     minHeight="150px"
                     border="2px solid #e0e0e0"
                     _focus={{ borderColor: "#6c63ff" }}
+                    _placeholder={{ color: "#999999" }} 
                     borderRadius="md"
                     p={4}
                   />
