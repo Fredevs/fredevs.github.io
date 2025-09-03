@@ -224,6 +224,50 @@
                     ],
                     "conclusion": "Samay Wayra is the gateway for future guests looking for a cozy and well-presented destination on the web. Thanks to its visual focus and ease of use, it allows interested parties to quickly and easily get information and contact the owner."
                 }
+            },
+            "moviltrack": {
+                "titulo": "Moviltrack",
+                "resumen": "Moviltrack is a comprehensive solution designed to optimize internal project and resource management, centralizing the company's information. It allows generating reports, extracting metrics, checking profitability, and managing clients, suppliers, products, projects, and more.",
+                "descripcion": {
+                    "titulo": "Project",
+                    "descripcion": "A custom management application developed for the company's internal project administration, with full-featured functionalities including handling quotes, remittances, products, projects, clients, suppliers, and other key elements. The platform includes a role-based system that allows segmented and supervised access according to each user's needs, as well as dashboards that facilitate monitoring of metrics and overall company performance to oversee profitability and support strategic decision-making.",
+                    "funcionalidades": "Main Features",
+                    "listaFuncionalidades": [
+                        {
+                            "titulo": "User Management",
+                            "descripcion": "Detailed control of user accounts, with role and permission assignments, enabling or suspending access, and monitoring each user's activity within the platform."
+                        },
+                        {
+                            "titulo": "Project Management",
+                            "descripcion": "Creation, tracking, and administration of internal projects, assignment of responsible parties and deadlines, and monitoring progress through key performance indicators."
+                        },
+                        {
+                            "titulo": "Client and Supplier Management",
+                            "descripcion": "Centralization of client and supplier information, including contact details, transaction history, and associated documentation."
+                        },
+                        {
+                            "titulo": "Product Management",
+                            "descripcion": "Complete administration of products and services, including inventory, pricing, descriptions, and categorization, with support for reports and downloadable documents."
+                        },
+                        {
+                            "titulo": "Quotes and Remittances Handling",
+                            "descripcion": "Generation and tracking of quotes and remittances, with change history and the possibility to export documents in downloadable formats."
+                        },
+                        {
+                            "titulo": "Dashboards and Metrics",
+                            "descripcion": "Visualization of key company metrics through customizable dashboards, facilitating supervision of projects, products, and user performance."
+                        },
+                        {
+                            "titulo": "Reports and Downloadable Documents",
+                            "descripcion": "Generation of financial, activity, and tracking reports, all available for download in compatible formats for filing and analysis."
+                        },
+                        {
+                            "titulo": "Dark Mode",
+                            "descripcion": "The application features a dark mode, allowing users to work comfortably in low-light environments, enhancing visual experience and reducing eye strain."
+                        }
+                    ],
+                    "conclusion": "Moviltrack is a comprehensive solution that centralizes internal company management, optimizing processes and improving efficiency in administering projects, clients, suppliers, and products. With its reporting tools, dashboards, and user management features, it enables detailed supervision and strategic decision-making based on accurate data."
+                }
             }
         },
         "movil": "Mobile Applications",

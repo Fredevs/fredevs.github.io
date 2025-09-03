@@ -224,6 +224,50 @@
                     ],
                     "conclusion": "Samay Wayra es la puerta de entrada para futuros huéspedes que buscan un destino acogedor y bien presentado en la web. Gracias a su enfoque visual y su facilidad de uso, permite que los interesados se informen y contacten con el dueño de manera rápida y sencilla."
                 }
+            },
+            "moviltrack": {
+                "titulo": "Moviltrack",
+                "resumen": "Moviltrack es una solución integral diseñada para optimizar la gestión interna de proyectos y recursos de la empresa permitiendo centralizar la información de la misma. Pudiendo generar reportes, sacar métricas, consultar rentabilidades y gestionar a clientes, proveedores, productos, proyectos y demás.",
+                "descripcion": {
+                    "titulo": "Proyecto",
+                    "descripcion": "Aplicación de gestión desarrollada a medida para la administración interna de proyectos de la empresa, con funcionalidades integrales que incluyen manejo de cotizaciones, remisiones, productos, proyectos, clientes, proveedores y otros elementos clave. La plataforma cuenta con un sistema de roles que permite un acceso segmentado y supervisado según las necesidades de cada usuario, así como un apartado de dashboards que facilita el seguimiento de las métricas y el desempeño general de la empresa para supervisar la rentabilidad y la toma de decisiones estratégicas",
+                    "funcionalidades": "Características Principales",
+                    "listaFuncionalidades": [
+                        {
+                            "titulo": "Gestión de Usuarios",
+                            "descripcion": "Control detallado de las cuentas de usuarios, con asignación de roles y permisos segmentados, habilitación o suspensión de accesos y supervisión de la actividad de cada usuario dentro de la plataforma."
+                        },
+                        {
+                            "titulo": "Gestión de Proyectos",
+                            "descripcion": "Creación, seguimiento y administración de proyectos internos, asignación de responsables y fechas de entrega, y monitoreo del progreso mediante indicadores clave."
+                        },
+                        {
+                            "titulo": "Gestión de Clientes y Proveedores",
+                            "descripcion": "Centralización de la información de clientes y proveedores, incluyendo datos de contacto, historial de transacciones y documentación asociada."
+                        },
+                        {
+                            "titulo": "Gestión de Productos",
+                            "descripcion": "Administración completa de productos y servicios, incluyendo inventario, precios, descripciones y categorización, con soporte para reportes y documentos descargables."
+                        },
+                        {
+                            "titulo": "Manejo de Cotizaciones y Remisiones",
+                            "descripcion": "Generación y seguimiento de cotizaciones y remisiones, con historial de cambios y posibilidad de exportar los documentos en formato descargable."
+                        },
+                        {
+                            "titulo": "Dashboards y Métricas",
+                            "descripcion": "Visualización de métricas clave de la empresa mediante dashboards personalizables, facilitando la supervisión del desempeño de proyectos, productos y usuarios."
+                        },
+                        {
+                            "titulo": "Reportes y Documentos Descargables",
+                            "descripcion": "Generación de reportes financieros, de actividad y de seguimiento, todos disponibles para descarga en formatos compatibles para su archivo y análisis."
+                        },
+                        {
+                            "titulo": "Modo Oscuro",
+                            "descripcion": "La aplicación cuenta con un modo oscuro que permite a los usuarios trabajar de manera más cómoda en entornos con poca luz, mejorando la experiencia visual y reduciendo la fatiga ocular."
+                        }
+                    ],
+                    "conclusion": "Moviltrack constituye una solución integral que centraliza la gestión interna de la empresa, optimizando procesos y mejorando la eficiencia en la administración de proyectos, clientes, proveedores y productos. Gracias a sus herramientas de reportes, dashboards y control de usuarios, permite una supervisión detallada y la toma de decisiones estratégicas fundamentadas en datos precisos."
+                }
             }
         },
         "movil": "Aplicaciones Móviles",
